@@ -64,8 +64,7 @@ ggplot(avgSteps, aes(x=Interval, y=Step_Avg)) + geom_line()
 ```{r}
 avgSteps[avgSteps$Step_Avg == max(avgSteps$Step_Avg),]
 ```
-The mean is the same as before, while the median is now the same as the mean.  
-Furthermore, the count for the center bar is much higher now.
+
 <br><br>
 
 ## Imputing missing values
@@ -112,6 +111,9 @@ mean(totStepsMissing$Step_Sum_Missing)
 ```{r}
 median(totStepsMissing$Step_Sum_Missing)
 ```
+The mean is the same as before, while the median is now the same as the mean.  
+Furthermore, the count for the center bar is much higher now.
+
 <br><br>
 
 ## Are there differences in activity patterns between weekdays and weekends?

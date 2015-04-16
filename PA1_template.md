@@ -89,8 +89,7 @@ avgSteps[avgSteps$Step_Avg == max(avgSteps$Step_Avg),]
 ##     Interval Step_Avg
 ## 104      835 206.1698
 ```
-The mean is the same as before, while the median is now the same as the mean.  
-Furthermore, the count for the center bar is much higher now.
+
 <br><br>
 
 ## Imputing missing values
@@ -157,6 +156,9 @@ median(totStepsMissing$Step_Sum_Missing)
 ```
 ## [1] 10766.19
 ```
+The mean is the same as before, while the median is now the same as the mean.  
+Furthermore, the count for the center bar is much higher now.
+
 <br><br>
 
 ## Are there differences in activity patterns between weekdays and weekends?
